@@ -14,7 +14,7 @@ fn main() {
    }
    
    fn define_x() {
-       let x = "hello";
+       let x : &str = "hello";
           println!("{}, world", x); 
    }
    
